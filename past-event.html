@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Past Events!</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/style.min.css">
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+</head>
+
+<body>
+	<header>
+
+	</header>
+	<div class='jumbotron'>
+		<h2 class='title-display'>Your Events!</h2>
+		<ul class="nav navbar-nav">
+			<li><a href="./index.html">Sign-up</a></li>
+			<li><a href="./create.html">Create Event</a></li>
+			<li><a href="./past-event.html">View Event</a></li>
+		</ul>
+	</div>
+	<div class='container'>
+		<div role='main'>
+			<section class='card'>
+				<div class='form-group'>
+					<label for='eventName-sample' class='col-lg-3 control-label'>Event Name</label>
+					<div class='col-lg-9'>
+						<div id='eventName-sample'>Launch Party!</div>
+					</div>
+				</div>
+
+				<div class='form-group'>
+					<label for='eventType-sample' class='col-lg-3 control-label'>Event Type</label>
+					<div class='col-lg-9'>
+						<div id='eventType-sample'>Barbeque</div>
+					</div>
+				</div>
+
+				<div class='form-group'>
+					<label for='eventTime-sample' class='col-lg-3 control-label'>Event Time</label>
+					<div class='col-lg-9'>
+						<div id='eventTime-sample'>May 7, 2017 2:00PM to May 7, 2017 4:00PM</div>
+					</div>
+				</div>
+				<div class='form-group'>
+					<label for='eventHost-sample' class='col-lg-3 control-label'>Hosted By</label>
+					<div class='col-lg-9'>
+						<div id='eventHost-sample'>Udacity</div>
+					</div>
+				</div>
+
+				<div class='form-group'>
+					<label for='eventDescription-sample' class='col-lg-3 control-label'>Description</label>
+					<div class='col-lg-9'>
+						<div id="eventDescription-sample">Launch party!</div>
+					</div>
+				</div>
+
+				<div class='form-group'>
+					<label for='location-sample' class='col-lg-3 control-label'>Location</label>
+					<div class='col-lg-9'>
+
+						<div id='location-sample'>2713 Surfside Ct.
+							<br /> Columbia, MO 92883</div>
+
+					</div>
+				</div>
+				<div class='form-group'>
+					<label for='attendees-sample' class='col-lg-3 control-label'>Attendees</label>
+					<div class='col-lg-9'>
+						<div id='attendees-sample'>Mary@Sheahen.net</div>
+					</div>
+				</div>
+				<div class='form-group'>
+					<label for='eventMessage-sample' class='col-lg-3 control-label'>Message</label>
+					<div class='col-lg-9'>
+						<div id='eventMessage-sample'>BYOB</div>
+					</div>
+				</div>
+			</section>
+
+			<div style='margin-top:20px'>
+
+			</div>
+
+			<section class='card'>
+				<div id="error-message"></div>
+				<div class='form-group'>
+					<label for='eventName' class='col-lg-3 control-label'>Event Name</label>
+					<div class='col-lg-9'>
+						<div id='eventName'></div>
+					</div>
+				</div>
+
+				<div class='form-group'>
+					<label for='eventType' class='col-lg-3 control-label'>Event Type</label>
+					<div class='col-lg-9'>
+						<div id='eventType'></div>
+					</div>
+
+				</div>
+
+				<div class='form-group'>
+					<label for='eventTime' class='col-lg-3 control-label'>Event Time</label>
+					<div class='col-lg-9'>
+
+						<div id='eventTime'></div>
+					</div>
+
+				</div>
+
+
+
+
+				<div class='form-group'>
+					<label for='eventHost' class='col-lg-3 control-label'>Hosted By</label>
+					<div class='col-lg-9'>
+
+						<div id='eventHost'></div>
+
+					</div>
+
+				</div>
+
+				<div class='form-group'>
+					<label for='eventDescription' class='col-lg-3 control-label'>Description</label>
+					<div class='col-lg-9'>
+
+						<div id="eventDescription"></div>
+
+					</div>
+
+				</div>
+
+				<div class='form-group'>
+					<label for='location' class='col-lg-3 control-label'>Location</label>
+					<div class='col-lg-9'>
+						<div id='location'></div>
+					</div>
+				</div>
+
+
+				<div class='form-group'>
+					<label for='attendees' class='col-lg-3 control-label'>Attendees</label>
+					<div class='col-lg-9'>
+						<div id='attendees'></div>
+					</div>
+				</div>
+
+				<div class='form-group'>
+					<label for='eventMessage' class='col-lg-3 control-label'>Message</label>
+					<div class='col-lg-9'>
+						<div id='eventMessage'></div>
+					</div>
+				</div>
+			</section>
+		</div>
+	</div>
+	<script src='js/event.min.js'></script>
+</body>
+
+</html>
