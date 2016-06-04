@@ -10,13 +10,10 @@ to run this program,
 
 1. clone this repository: https://github.com/msheahen/meet-up-event-planner.git
 
-2. in terminal, direct to this project folder and key in
+2. in terminal, direct to this project folder and type the command
     npm install
 
-3. initialize the npm project by running 
-  npm init
-
-4. to build the project, key in
-  gulp
+4. to build the project, type the command
+    gulp
 	
 The output should now have created a /dist folder.  open the index.html page in that folder into a browser and enjoy!
