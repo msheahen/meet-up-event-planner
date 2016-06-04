@@ -1,2 +1,22 @@
 # meet-up-event-planner
-Meet Up event planner form
+
+#Description
+
+A front end app that allows you to create an account, create an event, and view your created events. no back end DB connected to this. 
+
+#Getting Started
+
+to run this program,
+
+1. clone this repository: https://github.com/msheahen/meet-up-event-planner.git
+
+2. in terminal, direct to this project folder and key in
+    npm install
+
+3. initialize the npm project by running 
+  npm init
+
+4. to build the project, key in
+  gulp
+	
+The output should now have created a /dist folder.  open the index.html page in that folder into a browser and enjoy!
