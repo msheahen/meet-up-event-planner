@@ -16,4 +16,5 @@ to run this program,
 4. to build the project, type the command
     ```gulp```
 	
+
 The output should now have created a /dist folder.  open the index.html page in that folder into a browser and enjoy!
