@@ -1,0 +1,11 @@
+body{line-height:1.5em;font-family:'Open Sans',sans-serif;margin-left:auto;margin-right:auto;padding-left:1em;padding-right:1em}
+.hidden{display:none!important}
+.heading{font-style:italic;color:#aaa}
+.card{border:1px solid}
+.card-details{margin-left:1em;margin-right:1em}
+.card-detail{display:flex;margin-bottom:.5em}
+h2.title-display{text-align:center}
+.error-message,.required{color:red}
+ul.helper-text{display:block;margin-top:6px;font-size:12px;line-height:22px;color:grey}
+.valid{color:#1fd34a}
+#passwordMatch.valid{display:none}
