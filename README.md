@@ -15,6 +15,9 @@ to run this program,
 
 3. to build the project, type the command ```gulp```
 4. The output should now have created a /dist folder.  open the index.html page in that folder into a browser and enjoy!
+
+
+* Alternatively, you can view this page hosted [here](https://msheahen.github.io/meet-up-event-planner/).
 	
 
 
